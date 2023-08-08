@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@200;300;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.hero-section-container {
+  width: 100%;
+  min-height: 90vh;
+  padding: 8rem 8rem;
+  background-size: cover;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.432), rgb(0, 0, 0, 1)),
+    url("https://cdn.firstcry.com/education/2022/05/10114506/695934271.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  font-size: 1.8rem;
+  justify-content: space-between;
+  z-index: 999;
+  color: rgb(255, 255, 255);
+  font-family: "Alata", sans-serif;
+  align-items: center;
+}
+
+.logo {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  text-decoration: none;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.hero-section-description {
+  margin: 10rem auto;
+  max-width: 700px;
+  padding: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.hero-section-description h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 7rem;
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+.hero-section-description p {
+  margin-top: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.info-section {
+  padding: 6rem 8rem; /* background-color: black; */
+  width: 100%;
+}
+
+.info-container {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem;
+}
+
+.image-description {
+  width: 50%;
+}
+
+img {
+  width: 600px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.image-description h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: rgb(78, 138, 78);
+  font-weight: 400;
+}
+
+.image-description p {
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.info-container2 {
+  flex-direction: row-reverse;
+}
+
+.ourGoal-section {
+  background-color: red;
+  width: 100%;
+  padding: 8rem 8rem;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(161, 158, 158, 0.3)),
+    url("https://gray-ksla-prod.cdn.arcpublishing.com/resizer/SruTPRFG5TNEy7EFk7zx-I1t9Gk=/1920x1080/smart/filters:quality(85)/do0bihdskp9dy.cloudfront.net/07-13-2021/t_9c1ef399b9d446ba94e742bb66a501a5_name_t_bc3e74a6f3cd4aa7827169e691066448_name_fog.JPG");
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+}
+
+.ourGoal-description {
+  max-width: 700px;
+  color: rgb(0, 0, 0);
+}
+
+.ourGoal-section h1 {
+  font-size: 5rem;
+  color: rgb(78, 138, 78);
+  margin: 2rem 0rem;
+}
+
+.ourGoal-section p {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.font-dim {
+  color: rgba(0, 0, 0, 0.726);
+}
+
+button {
+  padding: 2rem 3rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: rgb(78, 138, 78);
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  transform: translateY(5px);
+}
+
+.service-section {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 8rem 8rem;
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.service-section h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(78, 138, 78);
+  font-weight: 300;
+}
+
+.cards {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.cards h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-size: 3rem;
+  color: black;
+}
+
+.cards p {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.card {
+  border-radius: 12px;
+  transition: 1s ease;
+}
+
+.card1:hover {
+  transform: translateY(10px);
+}
+
+.card3:hover {
+  transform: translateY(10px);
+}
+
+.card2:hover {
+  transform: translateY(0px);
+}
+
+.card1 {
+  background-color: pink;
+  padding: 2rem;
+}
+
+.card2 {
+  background-color: rgb(164, 222, 226);
+  padding: 2rem;
+  transform: translateY(50px);
+}
+
+.card3 {
+  background-color: #b8ddb4;
+  padding: 2rem;
+}
+
+.unity-section {
+  width: 100%;
+  padding: 10rem 8rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.unity-section-container {
+  width: 100%;
+}
+
+.unity-section-description {
+  display: flex;
+  gap: 5rem;
+  margin: 2rem;
+  width: 100%;
+}
+
+.unity-section-description h1 {
+  font-size: 6rem;
+  font-weight: 300;
+  color: rgb(78, 138, 78);
+}
+
+.unity-section-description p {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  width: 50%;
+}
+
+.unity-image {
+  width: 100%;
+  height: 500px;
+  object-position: top;
+  object-fit: cover;
+}
+
+footer {
+  background-color: rgb(14, 14, 14);
+  width: 100%;
+  min-height: 30vh;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 8rem 0rem;
+}
+
+.logo {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+footer ul {
+  display: flex;
+  gap: 3rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+footer ul li {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .info-container {
+    flex-direction: column;
+  }
+
+  .image-description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card2 {
+    transform: translateY(0px);
+  }
+
+  .unity-section-description {
+    flex-direction: column;
+  }
+
+  .unity-section-description p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 55%;
+  }
+  .hero-section-container,
+  .info-section,
+  .ourGoal-section,
+  .service-section
+ {
+    padding: 4rem 3rem;
+  }
+
+  .unity-section {
+    padding: 2rem;
+  }
+
+  .unity-section-description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+  .hero-section-container,
+  .info-section,
+  .ourGoal-section,
+  .service-section
+  {
+    padding: 2rem;
+  }
+
+  img{
+    width:100%;
+    border-radius: 12px;
+  }
+
+  .unity-section {
+    padding: 2rem;
+  }
+
+  .unity-section-description {
+    width: 100%;
+  }
+
+  .info-container{
+    margin-bottom:8rem
+  }
+  
+.unity-image {
+  width: 100%;
+  height: auto;
+  object-position: top;
+  object-fit: cover;
+}
+
+}
+
+@media (max-width: 500px) {
+html{
+  font-size: 50%;
+}
+
+.headings h1{
+font-size: 4rem;
+font-weight: 400;
+}
+
+.service-section h1{
+  padding-top: 3rem;
+  font-size: 4rem;
+font-weight: 400;
+text-align: left;
+}
+
+.cards{
+  margin-top: 4rem;
+}
+
+.hero-section-description h1{
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+}
