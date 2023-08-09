@@ -1,5 +1,7 @@
+import {Link} from "react-router-dom"
 import Nav from "./Nav"
-export default function HeroSection() {
+import Contact from "./Contact"
+export default function HeroSection({toggleContact, setToggleContact}) {
 
     return (
         <>
@@ -7,14 +9,15 @@ export default function HeroSection() {
 
 
             <div className="hero-section-container">
-            <Nav/>
+            <Nav toggleContact = {toggleContact} setToggleContact = {setToggleContact}/>
                 <div className="hero-section-description">
                     <h1>Track Your Impact</h1>
                     <h1>Reduce Your FootPrint</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quibusdam maiores magni necessitatibus delectus ducimus rem temporibus esse aut et!
                     </p>
-                    <button>Start Tracking</button>
+                   <Link to = "/tracker"> <button>Start Tracking</button></Link>
                 </div>
+       
             </div>
               
     

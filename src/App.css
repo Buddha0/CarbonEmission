@@ -17,7 +17,7 @@ html {
   background-size: cover;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.432), rgb(0, 0, 0, 1)),
-    url("https://cdn.firstcry.com/education/2022/05/10114506/695934271.jpg");
+    url("https://media.discordapp.net/attachments/1137157098325680151/1138190988108648448/1200px-ISS034E016601_-_Stratocumulus_Clouds_-_Pacific_Ocean.jpg?width=636&height=423");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,7 +32,11 @@ nav {
   font-family: "Alata", sans-serif;
   align-items: center;
 }
-
+.fa-bars{
+display: none;
+cursor: pointer;
+  font-size: 2rem;
+}
 .logo {
   font-size: 4rem;
   color: rgb(255, 255, 255);
@@ -50,6 +54,14 @@ nav ul li {
   cursor: pointer;
 }
 
+.link{
+  text-decoration: none;
+  color:white;
+}
+
+.active{
+  color: rgb(223, 167, 174);
+}
 .hero-section-description {
   margin: 10rem auto;
   max-width: 700px;
@@ -267,6 +279,151 @@ button:hover {
   object-fit: cover;
 }
 
+.about-section{
+  padding:8rem;
+ 
+  width:100%;
+  min-height: 70vh;
+  background-color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.432), rgb(0, 0, 0, 1)),url("https://cdn.firstcry.com/education/2022/05/10114506/695934271.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-title{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+font-family: "Josefin Sans", sans-serif;
+
+}
+
+.about-title h1{
+  color:white;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.normal-texts-div{
+  font-family: "Josefin Sans", sans-serif;
+  padding:8rem;
+}
+
+.flex{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.normal-texts-div h1{
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.normal-texts-div p{
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+/* CONTACT */
+
+
+
+
+.gif {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  border-top-left-radius:12px;
+  border-top-right-radius: 12px;
+  object-position: top;
+}
+
+form {
+border-radius: 12px;
+  font-family: "Raleway", sans-serif;
+  width: 400px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease;
+
+}
+
+.form-show{
+  opacity: 1;
+  pointer-events: fill;
+}
+
+
+.fa-x{
+z-index: 9999;
+  font-size: 3rem;
+  color: black;
+  font-size: 3rem;
+  position: absolute;
+  right:-10px;
+  top:-15px;
+  background-color: white;
+  padding:2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+form p{
+  text-align: center;
+  margin:2rem;
+}
+
+.input-div {
+  width: 100%;
+  background-color: rgb(5, 5, 5);
+  margin: 2rem 0rem;
+}
+
+input,
+textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid rgb(209, 204, 204);
+  width: 100%;
+  padding: 0.7rem 2rem;
+}
+
+textarea {
+  min-height: 15vh;
+}
+
+.form-padding{
+  padding:1rem;
+}
+.btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-send {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  background-color: #141414;
+  width: 90%;
+  cursor: pointer;
+  color: white;
+}
 footer {
   background-color: rgb(14, 14, 14);
   width: 100%;
@@ -386,6 +543,44 @@ footer ul li {
 }
 
 @media (max-width: 500px) {
+
+.fa-solid{
+  display: block;
+}
+
+nav{
+  position: relative;
+}
+
+nav ul{
+position: absolute;
+background-color: rgb(14, 14, 14);
+top:100%;
+flex-direction: column;
+width:100%;
+text-align: center;
+gap:0rem;
+transform: translateY(-30px);
+pointer-events: none;
+opacity: 0;
+transition: 0.5s ease;
+}
+
+.ul-show{
+  transform: translateY(0px);
+  opacity: 1;
+  pointer-events: fill;
+
+}
+
+nav ul li{
+  padding:2rem;
+}
+
+
+nav ul li:hover{
+  background-color: rgb(37, 37, 37);
+}
 html{
   font-size: 50%;
 }

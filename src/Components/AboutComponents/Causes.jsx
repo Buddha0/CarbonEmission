@@ -1,0 +1,10 @@
+export default function Causes(){
+    return(
+        <>
+        <div className="normal-texts-div">
+    <h1>Causes</h1>
+    <p>There are multiple causes for the immense carbon emissions of today. Human activity stands as the primary source of the yearly increasing carbon emissions. Burning fossil fuels (coal, oil, and natural gas) releases an abundant quantity of carbon dioxide to the atmosphere. Chemically speaking, this is due to the carbon present in those  resources combining with the oxygen (originating from the fire) which then releases a tremendous amount of carbon dioxide in the air. Moreover, the constant eradication of agricultural land in favor of building industries. Consequently, the oxygen given off by the vegetation in the industrial land decreases, while the carbon dioxide present in the smoke coming out of all types of factories. The industrial act has increased carbon dioxide emissions by approximately fifty percent since 1750.  Also, the transportation sector plays a crucial role in spreading carbon emissions. Cars, ships, trains, and planes – modern day innovations humans are too dependent on – are major contributer for the rise of carbon emissions, whether it is the fossil fuels burned to form their petroleum or the huge amounts of smoke they release consequently as they burn fuel for motion. Surprisingly, simle agriculture can also contribute to the rise of carbon emissions. Rice production, agricultural soils (mainly due to the use of fertilizers), and even livestock release humongous amounts of carbon dioxide. Household items such as refrigeratrs, cooling, heating, and lighting all require fossil fuels to be burned in order to have sufficient energy to provide humans with the necessary tools of service. Electric power,   used mainly in the industrial sector, consumes enormous amounts of coal and natural gas.</p>
+</div>
+        </>
+    )
+}
