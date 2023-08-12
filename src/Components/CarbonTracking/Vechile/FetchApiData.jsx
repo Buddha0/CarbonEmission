@@ -6,8 +6,17 @@ const headers = {
 };
 
 
-export default async function FetchApiData(url){
-    const response = await fetch(`${apiUrl}${url}`,{headers})
+export async function fetchCarsApiData(url) {
+  try {
+    const response = await fetch(`${apiUrl}${url}`, { headers })
     const data = await response.json()
     return data
+  }
+  catch (error) {
+    console.log("error is : ", error)
+  }
+
 }
+
+
+

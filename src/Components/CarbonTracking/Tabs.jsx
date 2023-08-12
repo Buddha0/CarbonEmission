@@ -1,8 +1,8 @@
-// const [vechileCompany, setVechileCompany] = useState([])
-// const [vechileModes, setVechileModel] = useState([])
+// const [VehicleCompany, setVehicleCompany] = useState([])
+// const [VehicleModes, setVehicleModel] = useState([])
 // async function fetchData(){
 // const data = await FetchApiData("vehicle_makes")
-// setVechileCompany(data)
+// setVehicleCompany(data)
 
 // }
 
@@ -19,7 +19,7 @@
 //     // <>
     
 // <select name="pets" id="pet-select" onChange={handleChange}>
-//   {vechileCompany?.map((company)=>{
+//   {VehicleCompany?.map((company)=>{
 //    return <option key = {company.data.id} value={company.data.id}>{company.data.attributes.name}</option>
 //   })}
 
