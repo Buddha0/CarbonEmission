@@ -54,8 +54,9 @@ export default function Chart() {
   };
   return (
     <>
+<div className="chart-container">
       <BarChart
-        width={700}
+        width={500}
         height={400}
         data={data}
         margin={{
@@ -76,7 +77,7 @@ export default function Chart() {
         </Bar>
 
       </BarChart>
-
+      </div>
     </>
   )
 }

@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 import Nav from "./Nav"
-import Contact from "./Contact"
+import Background from "./Background"
 export default function HeroSection({toggleContact, setToggleContact}) {
 
     return (

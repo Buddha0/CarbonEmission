@@ -15,7 +15,7 @@ export default function Vehicle() {
   const [units, setUnits] = useState("mi")
   const [distanceValue, setDistanceValue] = useState(100)
   const [carbonEstimation, setCarbonEstimation] = useState(null)
-  console.log(carbonEstimation)
+
 
 
   async function fetchVehicleCompanyData() {

@@ -11,7 +11,7 @@ export default function Nav({toggleContact,setToggleContact}){
                     <ul className={toggle?"ul-show":""}>
                        <NavLink to = "/" className={"link"}><li>Home</li></NavLink> 
                        <NavLink to = "/tracker" className={"link"}><li>Tracker</li></NavLink> 
-                       <NavLink to = "/about" className={"link"}>     <li>Research</li></NavLink> 
+                       <NavLink to = "/research" className={"link"}>     <li>Research</li></NavLink> 
           
                    
                         <li onClick={()=>setToggleContact(!toggleContact)}>Contact</li>
