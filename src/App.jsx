@@ -18,16 +18,16 @@ const[toggleContact,setToggleContact] = useState(false)
     <>
 
       <Router>
-        <Nav />
+        <Nav setToggleContact={setToggleContact} toggleContact={toggleContact} />
         <Routes>
-         <Route path = "/" element = {<Home toggleContact = {toggleContact} setToggleContact = {setToggleContact}/>}/>
+         <Route path = "/" element = {<Home/>}/>
          <Route path = "/research" element = {< Research toggleContact = {toggleContact} setToggleContact = {setToggleContact} />}/>
          <Route path = "/tracker" element = {<Tracker/>}/>
          <Route path = "/cardsInfo/:title" element = {<CardsInfo/>}/>
 
         </Routes>
-          <Contact toggleContact = {toggleContact}/>
-        <Footer />
+          <Contact toggleContact = {toggleContact} setToggleContact={setToggleContact}/>
+        <Footer toggleContact={toggleContact} setToggleContact={setToggleContact}/>
       </Router>
 
     </>

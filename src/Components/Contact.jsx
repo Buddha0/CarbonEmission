@@ -1,6 +1,7 @@
-import { useState } from "react"
 
-export default function Contact({toggleContact,setToggleContact}) {
+
+export default function Contact({toggleContact, setToggleContact}) {
+    console.log(setToggleContact)
    
     return (
         <>
@@ -8,14 +9,14 @@ export default function Contact({toggleContact,setToggleContact}) {
 
     
                 <form action="https://formspree.io/f/mzblbggv" method="POST" id="myForm" className={toggleContact?"form-show":""}>
-                <i class="fa-solid fa-x" ></i>
+                <i class="fa-solid fa-x" onClick={()=>setToggleContact(false)}></i>
 
                     <img src="https://sushirainbow.files.wordpress.com/2020/11/wp-1605470582609.gif" className="gif"></img>
                     <p class>Hey there! Want to Message Us?</p>
                     <div class="form-padding">
                         <div class="input-div" >
                             <input type="text" name="email" placeholder="Your Name" autocomplete="off" required></input>
-                            {/* <input type="text" placeholder="Your Name" name="name" autocomplete="off" required> */}
+                            
                         </div>
                         <div class="input-div">
                             <input type="email" name="email" placeholder="Your Email" autocomplete="off" required></input>

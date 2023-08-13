@@ -1,14 +1,17 @@
-export default function Footer(){
-    return(
+import { NavLink } from "react-router-dom"
+export default function Footer({toggleContact,setToggleContact}) {
+    return (
         <>
-        
-        <footer>
+
+            <footer>
+                
                 <h1 className="logo">Stellar</h1>
-                <ul>
-                    <li>Home</li>
-                    <li>Tracker</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
+
+                <ul className= "ul-show">
+                    <NavLink to="/" className={"link"}><li>Home</li></NavLink>
+                    <NavLink to="/tracker" className={"link"}><li>Tracker</li></NavLink>
+                    <NavLink to="/research" className={"link"}>     <li>Research</li></NavLink>
+                    <li onClick={() => setToggleContact(!toggleContact)}>Contact</li>
                 </ul>
             </footer>
         </>

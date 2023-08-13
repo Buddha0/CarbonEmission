@@ -760,6 +760,10 @@ padding:2rem;
   .grid-gallery{
     grid-template-columns: 1fr;
   }
+
+  nav{
+    padding:2rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -783,6 +787,8 @@ padding:2rem;
     pointer-events: none;
     opacity: 0;
     transition: 0.5s ease;
+    margin:0;
+    right:0;
   }
 
   .ul-show {

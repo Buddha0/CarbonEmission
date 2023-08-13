@@ -3,9 +3,14 @@ import Chart from "../Components/AboutComponents/Chart"
 import Geographically from "../Components/AboutComponents/Geographically"
 import Background from "../Components/Background"
 import Outcome from "../Components/AboutComponents/Outcome"
+import { useEffect } from "react"
 
 
 export default function Research({toggleContact,setToggleContact}) {
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+      }, []);
+
 
 
 
