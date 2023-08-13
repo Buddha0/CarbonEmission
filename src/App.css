@@ -362,8 +362,9 @@ button:hover {
 }
 .grid-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit,42rem);
+  grid-template-columns: repeat(auto-fit,35rem);
   gap: 3rem;
+  justify-content: center;
 }
 
 .grid-card-description{
@@ -832,5 +833,15 @@ padding:2rem;
   .question{
     width:100%;
     height:auto;
+  }
+
+  form{
+    width:95%;
+  }
+}
+
+@media(max-width:250px){
+  form{
+    width:90%;
   }
 }
