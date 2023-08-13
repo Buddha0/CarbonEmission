@@ -1,5 +1,4 @@
 import React from "react";
-import fetchCarbonEstimate from "./VechileCarbonEstimation";
 
 export default function VehicleOptions({ VehicleCompanyModel,
   VehicleCompany,

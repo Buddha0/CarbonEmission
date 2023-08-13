@@ -74,12 +74,12 @@ export default function Vehicle() {
             distanceValue={distanceValue}
 
           />
-          <button onClick={handleEstimateClick}>Estimate Carbon Emission</button>
+          <button onClick={handleEstimateClick} className="result">Estimate Carbon Emission</button>
 
         </div>
         <div className="vechile-carbon-emission-result">
           {carbonEstimation ? <>
-            <h1>Your Carbon FootPrint</h1>
+            <h1>Your Carbon FootPrint For Vehicle</h1>
             <div className="main-results">
               <p>Estimated Carbon Emission in kg: {carbonEstimation?.data.attributes.carbon_kg} kg</p>
               <p>Estimated Carbon Emission in g: {carbonEstimation?.data.attributes.carbon_g} g</p>
@@ -97,12 +97,9 @@ export default function Vehicle() {
 
           </> :
             <>
-              <h1>Your Carbon FootPrint</h1>
-              <img src="question.png" className="question"></img>
+              <h1>Your Carbon FootPrint For Vehicle ??</h1>
+              <img src="https://i.pinimg.com/474x/5b/cd/74/5bcd740e25d4b46b5b242275df618005.jpg" className="question"></img>
             </>}
-
-
-
 
 
         </div>

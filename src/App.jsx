@@ -18,6 +18,7 @@ const[toggleContact,setToggleContact] = useState(false)
     <>
 
       <Router>
+        <Nav />
         <Routes>
          <Route path = "/" element = {<Home toggleContact = {toggleContact} setToggleContact = {setToggleContact}/>}/>
          <Route path = "/research" element = {< Research toggleContact = {toggleContact} setToggleContact = {setToggleContact} />}/>

@@ -30,7 +30,9 @@ nav {
   z-index: 999;
   color: rgb(255, 255, 255);
   font-family: "Alata", sans-serif;
-  align-items: center;  
+  align-items: center;
+background-color: black; 
+  padding:2rem 8rem
 }
 .fa-bars {
   display: none;
@@ -39,13 +41,14 @@ nav {
 }
 .logo {
   font-size: 4rem;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255)!important;
 }
 
 nav ul {
   display: flex;
   gap: 3rem;
   text-decoration: none;
+  color:rgb(255, 255, 255)
 }
 
 nav ul li {
@@ -56,11 +59,11 @@ nav ul li {
 
 .link {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .active {
-  color: rgb(223, 167, 174);
+  color: rgb(52, 112, 82);
 }
 .hero-section-description {
   margin: 10rem auto;
@@ -533,8 +536,8 @@ input {
 }
 
 .question {
-  width: 350px;
-  height: 350px;
+  width:300px;
+  height:300px;
   object-fit: cover;
   margin-top: 2rem;
 }
@@ -673,7 +676,7 @@ padding:2rem;
   .vechile-carbon-emission-result{
     border-left:0px;
     border-bottom: 2px solid black;
-    padding-top: 3rem;
+    padding: 3rem 0rem;
   }
 
   .about-title h1{
@@ -687,6 +690,10 @@ padding:2rem;
 
   .normal-texts-div,.cause-and-solution-section,.cards-info-section,.other-cards-section{
     padding:2rem;
+  }
+
+  .result{
+    width:100%;
   }
  
 }
@@ -814,5 +821,10 @@ padding:2rem;
   .hero-section-description h1 {
     font-size: 4rem;
     line-height: 5rem;
+  }
+
+  .question{
+    width:100%;
+    height:auto;
   }
 }

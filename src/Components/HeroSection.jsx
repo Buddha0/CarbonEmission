@@ -9,7 +9,7 @@ export default function HeroSection({toggleContact, setToggleContact}) {
 
 
             <div className="hero-section-container">
-            <Nav toggleContact = {toggleContact} setToggleContact = {setToggleContact}/>
+
                 <div className="hero-section-description">
                     <h1>Track Your Impact</h1>
                     <h1>Reduce Your FootPrint</h1>
