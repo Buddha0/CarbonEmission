@@ -2,7 +2,7 @@ import { useState } from "react"
 import { NavLink } from "react-router-dom"
 export default function Nav({ toggleContact, setToggleContact }) {
 
-    const [toggle, setToggle] = useState(true)
+    const [toggle, setToggle] = useState(false)
     return (
         <>
             <nav>
