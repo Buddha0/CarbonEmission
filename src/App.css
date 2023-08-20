@@ -411,6 +411,9 @@ form {
   transition: 0.5s ease;
 }
 
+form p{
+  font-size: 1.5rem;
+}
 .form-show {
   opacity: 1;
   pointer-events: fill;

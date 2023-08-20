@@ -16,7 +16,7 @@ export default function VehicleOptions({ VehicleCompanyModel,
 
       <div className="row">
         <h1>Select a Vehicle Company</h1>
-        <select name="vehicles" id="vehicle-select" onChange={(e) => setVehicleCompanyId(e.target.value)}>
+        <select name="vehicles" id="vehicle-select" defaultValue={"asd"} onChange={(e) => setVehicleCompanyId(e.target.value)}>
 
           {VehicleCompany?.map((company) => (
             <option

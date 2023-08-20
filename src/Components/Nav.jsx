@@ -14,7 +14,7 @@ export default function Nav({ toggleContact, setToggleContact }) {
                     <NavLink to="/research" className={"link"}>     <li>Research</li></NavLink>
                     <li onClick={() => setToggleContact(!toggleContact)}>Contact</li>
                 </ul>
-                <i class="fa-solid fa-bars" onClick={() => setToggle(!toggle)}></i>
+                <i className="fa-solid fa-bars" onClick={() => setToggle(!toggle)}></i>
             </nav>
 
         </>

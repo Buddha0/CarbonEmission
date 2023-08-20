@@ -1,6 +1,6 @@
 import { data } from "./CausesAndSolutionApi"
 import { Link } from "react-router-dom"
-console.log(data)
+
 export default function Causes() {
     return (
         <>
