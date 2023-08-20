@@ -13,7 +13,7 @@ export default function HeroSection({toggleContact, setToggleContact}) {
                 <div className="hero-section-description">
                     <h1>Track Your Impact</h1>
                     <h1>Reduce Your FootPrint</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quibusdam maiores magni necessitatibus delectus ducimus rem temporibus esse aut et!
+                    <p>Monitor emissions, embrace eco-actions. Contribute to a greener world through mindful choices and positive change.
                     </p>
                    <Link to = "/tracker"> <button>Start Tracking</button></Link>
                 </div>
