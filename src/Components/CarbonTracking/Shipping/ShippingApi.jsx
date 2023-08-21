@@ -1,6 +1,6 @@
 
 
-const apiKey = 'wmXde88p51fChxcz0Fp4bA';
+const apiKey = 'fSGqoCjV9HO2tI11mdOGQ';
 const apiUrl = 'https://www.carboninterface.com/api/v1/estimates';
 
 
